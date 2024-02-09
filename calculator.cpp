@@ -1,4 +1,5 @@
-#include<iostream.h>
+#include<iostream>
+using namespace std;
 int main()
 {
 float num_1,num_2;
@@ -10,6 +11,7 @@ cout<<"Press 2 for Subtraction\n";
 cout<<"Press 3 for Multiplication\n";
 cout<<"Press 4 for Division\n";
 cout<<"press 5 for exit\n";
+cout<<"enter any choice:";
 cin>>operation;
 
 cout<<"Now Enter Two Numbers\n";
@@ -31,7 +33,7 @@ switch (operation)
     break;
 
     case 4:
-    cout<<"The Division result is: "<<num_/num_2;
+    cout<<"The Division result is: "<<num_1/num_2;
     break;
     case 5:
     cout<<"exiting......";
