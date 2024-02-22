@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     //using endl
-    cout<<"My name is Sasi"<<endl;
+    cout<<"My name is rohit"<<endl;
     //
     //using ends
     cout<<"Hi"<<ends;
@@ -21,7 +21,7 @@ int main()
     cout<<setw(6)<<"Hi\n";
     //creates spaces provides in setw(n)
     //setfill
-    cout<<setfill('^')<<setw(12)<<"Hi sasi\n";
+    cout<<setfill('^')<<setw(12)<<"Hi rohit\n";
     //fills the space given by setw
     //setprecision
     double num=0.233423423424;
