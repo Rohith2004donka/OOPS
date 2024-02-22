@@ -1,11 +1,10 @@
 #include<iostream>
-#include<String.h>
 using namespace std;
 
 class Student
 {
     public:
-        String fullName;
+        string fullName;
         int rollNum;
         double semPerentage;
         string collegeName;
