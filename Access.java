@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Access{
     private
         int privar;
@@ -8,7 +9,7 @@ public class Access{
         void setVar(int priValue,int proValue, int pubValue)
         {
             privar = priValue;
-            provar = proValue;System.out.println("privar:"+privar);
+            provar = proValue;
             pubvar = pubValue; 
             System.out.println("values are seted successfully");
         }
@@ -20,8 +21,15 @@ public class Access{
         }
         public static void main(String args[])
         {
+            Scanner s=new Scanner(System.in);
+            System.out.print("Enter private variable:");
+            int a=s.nextInt();
+            System.out.print("Enter protected variable:");
+            int b=s.nextInt();
+            System.out.print("Enter public variable:");
+            int c=s.nextInt();
             Access obj = new Access();
-            obj.setVar(23,34,56);
+            obj.setVar(a,b,c);
             obj.getVar();
         }
 
