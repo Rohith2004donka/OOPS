@@ -22,6 +22,7 @@ class Student1 extends Student{
         Department=dep;
         Section=sec;
     }
+    
     void display()
     {
         System.out.println("Student Details\n");
